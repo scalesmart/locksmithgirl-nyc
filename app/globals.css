@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-navy: #1B2B4B;
+  --color-navy-light: #243660;
+  --color-gold: #C9973A;
+  --color-gold-hover: #B8882F;
+  --color-offwhite: #F9F7F4;
+  --color-nearblack: #1A1A1A;
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body), system-ui, sans-serif;
+  color: var(--color-nearblack);
+  background: var(--color-offwhite);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), Georgia, serif;
+}
