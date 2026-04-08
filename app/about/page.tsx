@@ -3,11 +3,10 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Meet the Locksmith Girl — NYC's female-owned, female-operated locksmith. Learn her story, from TikTok community to trusted locksmith serving all 5 boroughs 24/7.",
+    "Meet the Locksmith Girl — NYC's female-owned, female-operated locksmith. Learn her story, from TikTok community to trusted locksmith serving Manhattan, Brooklyn, Queens & the Bronx 24/7.",
 };
 
-// TODO: Replace with real phone number
-const PHONE_HREF = "tel:+12125550000";
+const PHONE_HREF = "tel:+16468600520";
 
 export default function AboutPage() {
   return (
@@ -44,10 +43,13 @@ export default function AboutPage() {
 
           <div className="mt-6 space-y-4 text-nearblack/80 leading-relaxed">
             <p>
-              I became a locksmith because I kept hearing the same story from women: they were locked out late at night, called the first number they found, and ended up with a strange man at their door they didn&apos;t trust — or got price-gouged in a moment of vulnerability. I knew there had to be a better option. So I became it.
+              I&apos;m the owner of Locksmith Girl NYC, providing 24/7 emergency locksmith services across New York City. I specialize in residential and commercial lockouts, lock repair, lock replacement, and smart lock installation.
             </p>
             <p>
-              I&apos;m a licensed locksmith based in the Upper East Side, and I&apos;ve been serving all five boroughs for years. What started as word-of-mouth grew into a real community — especially on TikTok, where I talk openly about home security, scam tactics to watch out for, and what it&apos;s actually like to be a woman doing this work in New York City. The women who find me usually save my number and never need to look for another locksmith again. That&apos;s the part I&apos;m proud of.
+              With over 4 years of hands-on experience, I&apos;ve helped hundreds of NYC residents and businesses get back inside safely and upgrade their security. I focus on fast response times, reliable work, and straightforward service—especially in stressful situations like late-night lockouts.
+            </p>
+            <p>
+              As a women-owned business, my goal is to provide a service people feel comfortable calling, knowing the job will be handled professionally and efficiently.
             </p>
           </div>
         </div>
@@ -60,7 +62,7 @@ export default function AboutPage() {
               <svg className="mt-0.5 h-5 w-5 shrink-0 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
-              <span className="text-nearblack/80">Licensed locksmith — New York State</span>
+              <span className="text-nearblack/80">Licensed locksmith — NYS License #2123553-DCWP</span>
             </li>
             <li className="flex items-start gap-3">
               <svg className="mt-0.5 h-5 w-5 shrink-0 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -78,7 +80,7 @@ export default function AboutPage() {
               <svg className="mt-0.5 h-5 w-5 shrink-0 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
               </svg>
-              <span className="text-nearblack/80">Serving all 5 NYC boroughs</span>
+              <span className="text-nearblack/80">Serving Manhattan, Brooklyn, Queens &amp; The Bronx</span>
             </li>
           </ul>
         </div>

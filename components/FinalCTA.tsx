@@ -1,6 +1,5 @@
-// TODO: Replace with real phone number
-const PHONE_HREF = "tel:+12125550000";
-const SMS_HREF = "sms:+12125550000&body=Hi, I need a locksmith";
+const PHONE_HREF = "tel:+16468600520";
+const SMS_HREF = "sms:+16468600520&body=Hi, I need a locksmith";
 
 export default function FinalCTA() {
   return (

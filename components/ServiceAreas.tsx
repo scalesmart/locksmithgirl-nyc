@@ -1,7 +1,6 @@
 import Link from "next/link";
 
-// TODO: Replace with real phone number
-const SMS_HREF = "sms:+12125550000&body=Hi, I need a locksmith in my area";
+const SMS_HREF = "sms:+16468600520&body=Hi, I need a locksmith in my area";
 
 const boroughs = [
   {
@@ -24,11 +23,6 @@ const boroughs = [
     slug: "bronx",
     tagline: "South Bronx, Riverdale, Fordham, and more",
   },
-  {
-    name: "Staten Island",
-    slug: "staten-island",
-    tagline: "St. George, New Dorp, and more",
-  },
 ];
 
 export default function ServiceAreas() {
@@ -39,7 +33,7 @@ export default function ServiceAreas() {
           Serving all of NYC — within 35 minutes of you.
         </h2>
 
-        <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid gap-4 sm:grid-cols-2">
           {boroughs.map((borough) => (
             <Link
               key={borough.slug}

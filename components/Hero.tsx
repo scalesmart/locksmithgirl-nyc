@@ -1,7 +1,6 @@
-// TODO: Replace with real phone number
-const PHONE = "(212) 555-0000";
-const PHONE_HREF = "tel:+12125550000";
-const SMS_HREF = "sms:+12125550000&body=Hi, I need a locksmith";
+const PHONE = "(646) 860-0520";
+const PHONE_HREF = "tel:+16468600520";
+const SMS_HREF = "sms:+16468600520&body=Hi, I need a locksmith";
 
 export default function Hero() {
   return (
@@ -15,7 +14,7 @@ export default function Hero() {
           NYC&apos;s locksmith — owned and operated by a woman.
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-white/80 md:text-xl">
-          Whether you&apos;re locked out at 2am or upgrading your deadbolt on a Saturday, you get a licensed female locksmith at your door. 24/7, all five boroughs.
+          Whether you&apos;re locked out at 2am or upgrading your deadbolt on a Saturday, you get a licensed female locksmith at your door. 24/7, Manhattan through the Bronx.
         </p>
 
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">

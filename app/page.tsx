@@ -19,19 +19,17 @@ export default function Home() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Locksmith",
-            // TODO: Replace with real phone number
             name: "Locksmith Girl of NYC",
             description:
-              "Female-owned, female-operated locksmith serving all 5 NYC boroughs 24/7. Emergency lockouts, rekeying, smart lock installation, and more.",
+              "Female-owned, female-operated locksmith serving NYC 24/7. Emergency lockouts, rekeying, smart lock installation, and more.",
             url: "https://locksmithgirl.com",
-            telephone: "+12125550000",
+            telephone: "+16468600520",
             openingHours: "Mo-Su 00:00-23:59",
             areaServed: [
               "Manhattan",
               "Brooklyn",
               "Queens",
               "Bronx",
-              "Staten Island",
             ],
             address: {
               "@type": "PostalAddress",
@@ -46,7 +44,7 @@ export default function Home() {
               longitude: -73.9566,
             },
             priceRange: "$$",
-            sameAs: ["https://www.tiktok.com/@locksmithgirl"],
+            sameAs: ["https://www.tiktok.com/@locksmithgirl", "https://www.instagram.com/locksmithgirl"],
           }),
         }}
       />

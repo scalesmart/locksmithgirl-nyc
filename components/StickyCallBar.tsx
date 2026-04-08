@@ -2,8 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-// TODO: Replace with real phone number
-const PHONE_HREF = "tel:+12125550000";
+const PHONE_HREF = "tel:+16468600520";
 
 export default function StickyCallBar() {
   const [visible, setVisible] = useState(false);

@@ -3,9 +3,8 @@
 import { useState } from "react";
 import Link from "next/link";
 
-// TODO: Replace with real phone number
-const PHONE = "(212) 555-0000";
-const PHONE_HREF = "tel:+12125550000";
+const PHONE = "(646) 860-0520";
+const PHONE_HREF = "tel:+16468600520";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);

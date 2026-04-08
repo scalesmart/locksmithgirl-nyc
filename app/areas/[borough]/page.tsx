@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-// TODO: Replace with real phone number
-const PHONE = "(212) 555-0000";
-const PHONE_HREF = "tel:+12125550000";
-const SMS_HREF = "sms:+12125550000&body=Hi, I need a locksmith";
+const PHONE = "(646) 860-0520";
+const PHONE_HREF = "tel:+16468600520";
+const SMS_HREF = "sms:+16468600520&body=Hi, I need a locksmith";
 
 type BoroughData = {
   name: string;
@@ -117,25 +116,6 @@ const boroughData: Record<string, BoroughData> = {
       "Concourse",
     ],
     response: "Typically 20-35 minutes from the Upper East Side",
-  },
-  "staten-island": {
-    name: "staten-island",
-    displayName: "Staten Island",
-    metaTitle: "Staten Island Locksmith | Female Locksmith Staten Island | 24/7",
-    metaDescription:
-      "Female locksmith serving Staten Island. Emergency lockouts, lock rekeying, smart locks. Call to confirm ETA — available 24/7 for Staten Island residents.",
-    intro:
-      "Staten Island service is available — response times vary by neighborhood, so call or text for a current ETA. She's committed to serving every borough, including SI residents who deserve a female locksmith they can trust.",
-    neighborhoods: [
-      "St. George",
-      "New Dorp",
-      "Tottenville",
-      "Great Kills",
-      "Stapleton",
-      "Port Richmond",
-      "Todt Hill",
-    ],
-    response: "Call for current ETA — varies by neighborhood",
   },
 };
 

@@ -20,11 +20,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Locksmith Girl NYC | Female Locksmith Available 24/7 | All 5 Boroughs",
+    default: "Locksmith Girl NYC | Female Locksmith Available 24/7 | Manhattan, Brooklyn, Queens & The Bronx",
     template: "%s | Locksmith Girl of NYC",
   },
   description:
-    "NYC's female-owned, female-operated locksmith. Locked out? She's 35 minutes away, 24/7, all five boroughs. Call now — a woman will answer and a woman will show up.",
+    "NYC's female-owned, female-operated locksmith. Locked out? She's 35 minutes away, 24/7, Manhattan through the Bronx. Call now — a woman will answer and a woman will show up.",
   keywords: [
     "female locksmith NYC",
     "woman locksmith NYC",

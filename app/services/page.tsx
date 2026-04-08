@@ -6,9 +6,8 @@ export const metadata: Metadata = {
     "Emergency lockouts, lock rekeying, lock changes, smart lock installation, commercial security, and master key systems. Female locksmith serving all 5 NYC boroughs 24/7.",
 };
 
-// TODO: Replace with real phone number
-const PHONE = "(212) 555-0000";
-const PHONE_HREF = "tel:+12125550000";
+const PHONE = "(646) 860-0520";
+const PHONE_HREF = "tel:+16468600520";
 
 const services = [
   {
@@ -124,7 +123,7 @@ export default function ServicesPage() {
         {/* Sticky sidebar trust signals — shown below on mobile */}
         <div className="mt-16 rounded-xl bg-navy p-8 text-center text-white">
           <h3 className="font-heading text-xl font-bold">Need help now?</h3>
-          <p className="mt-2 text-white/70">Licensed &amp; insured. Female-owned. All 5 boroughs.</p>
+          <p className="mt-2 text-white/70">Licensed &amp; insured. Female-owned. Manhattan, Brooklyn, Queens &amp; The Bronx.</p>
           <a
             href={PHONE_HREF}
             className="mt-4 inline-flex items-center gap-2 rounded-full bg-gold px-6 py-3 font-bold text-navy"

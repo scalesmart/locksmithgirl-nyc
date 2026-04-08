@@ -31,7 +31,7 @@ const faqs = [
   {
     question: "Do you service all of NYC or just Manhattan?",
     answer:
-      "All five boroughs — Manhattan, Brooklyn, Queens, the Bronx, and Staten Island — as long as it's within about 35 minutes of the Upper East Side. If you're unsure whether you're in my range, just text me your neighborhood and I'll tell you straight.",
+      "Manhattan, Brooklyn, Queens, and the Bronx — as long as it's within about 35 minutes of the Upper East Side. If you're unsure whether you're in my range, just text me your neighborhood and I'll tell you straight.",
   },
 ];
 

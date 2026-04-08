@@ -8,7 +8,13 @@ export default function AboutPreview() {
           Why I became NYC&apos;s female locksmith.
         </h2>
         <p className="mt-6 text-lg leading-relaxed text-nearblack/70">
-          I became a locksmith because I kept hearing the same story from women: they were locked out late at night, called the first number they found, and ended up with a strange man at their door they didn&apos;t trust. I knew there had to be a better option. So I became it.
+          I&apos;m the owner of Locksmith Girl NYC, providing 24/7 emergency locksmith services across New York City. I specialize in residential and commercial lockouts, lock repair, lock replacement, and smart lock installation.
+        </p>
+        <p className="mt-4 text-lg leading-relaxed text-nearblack/70">
+          With over 4 years of hands-on experience, I&apos;ve helped hundreds of NYC residents and businesses get back inside safely and upgrade their security. I focus on fast response times, reliable work, and straightforward service—especially in stressful situations like late-night lockouts.
+        </p>
+        <p className="mt-4 text-lg leading-relaxed text-nearblack/70">
+          As a women-owned business, my goal is to provide a service people feel comfortable calling, knowing the job will be handled professionally and efficiently.
         </p>
         <Link
           href="/about"

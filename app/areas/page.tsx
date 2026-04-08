@@ -4,12 +4,11 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Areas Served",
   description:
-    "Locksmith Girl of NYC serves all 5 boroughs — Manhattan, Brooklyn, Queens, the Bronx, and Staten Island. Female locksmith within 35 minutes of your location, 24/7.",
+    "Locksmith Girl of NYC serves Manhattan, Brooklyn, Queens, and the Bronx. Female locksmith within 35 minutes of your location, 24/7.",
 };
 
-// TODO: Replace with real phone number
-const SMS_HREF = "sms:+12125550000&body=Hi, I need a locksmith in my area";
-const PHONE_HREF = "tel:+12125550000";
+const SMS_HREF = "sms:+16468600520&body=Hi, I need a locksmith in my area";
+const PHONE_HREF = "tel:+16468600520";
 
 const boroughs = [
   {
@@ -36,12 +35,6 @@ const boroughs = [
     neighborhoods: "South Bronx, Riverdale, Fordham, Kingsbridge, Mott Haven, Pelham Bay, Throgs Neck",
     description: "From Riverdale to the South Bronx, she covers the Bronx quickly from the Upper East Side.",
   },
-  {
-    name: "Staten Island",
-    slug: "staten-island",
-    neighborhoods: "St. George, New Dorp, Tottenville, Great Kills, Stapleton",
-    description: "Staten Island service available — call to confirm ETA based on your neighborhood.",
-  },
 ];
 
 export default function AreasPage() {
@@ -61,7 +54,7 @@ export default function AreasPage() {
 
       <div className="mx-auto max-w-5xl px-4 py-16">
         <p className="text-center text-nearblack/70 leading-relaxed">
-          Locksmith Girl of NYC is based on the Upper East Side and serves all five boroughs. Whether you&apos;re locked out in Astoria at midnight or need a rekey in Park Slope on a Saturday, she&apos;ll be there — typically within 35 minutes.
+          Locksmith Girl of NYC is based on the Upper East Side and serves Manhattan, Brooklyn, Queens, and the Bronx. Whether you&apos;re locked out in Astoria at midnight or need a rekey in Park Slope on a Saturday, she&apos;ll be there — typically within 35 minutes.
         </p>
 
         <div className="mt-12 space-y-8">

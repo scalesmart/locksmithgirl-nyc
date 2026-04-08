@@ -1,8 +1,7 @@
 import Link from "next/link";
 
-// TODO: Replace with real phone number
-const PHONE = "(212) 555-0000";
-const PHONE_HREF = "tel:+12125550000";
+const PHONE = "(646) 860-0520";
+const PHONE_HREF = "tel:+16468600520";
 
 export default function Footer() {
   return (
@@ -43,7 +42,6 @@ export default function Footer() {
               <li><Link href="/areas/brooklyn" className="hover:text-gold">Brooklyn</Link></li>
               <li><Link href="/areas/queens" className="hover:text-gold">Queens</Link></li>
               <li><Link href="/areas/bronx" className="hover:text-gold">The Bronx</Link></li>
-              <li><Link href="/areas/staten-island" className="hover:text-gold">Staten Island</Link></li>
             </ul>
           </div>
 
@@ -53,17 +51,20 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-white/80">
               <li>Available 24/7 — nights, weekends, holidays</li>
               <li>Licensed &amp; Insured in New York State</li>
+              <li>NYS License #2123553-DCWP</li>
               <li>Based on the Upper East Side</li>
               <li className="pt-2">
-                {/* TODO: Replace with real TikTok link */}
-                <a
-                  href="https://www.tiktok.com/@locksmithgirl"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-medium text-gold hover:underline"
-                >
-                  Follow on TikTok →
-                </a>
+                <p className="text-sm font-bold text-gold mb-2">Follow Us</p>
+                <div className="flex gap-3">
+                  <a href="https://www.tiktok.com/@locksmithgirl" target="_blank" rel="noopener noreferrer"
+                     className="font-medium text-white/80 hover:text-gold transition-colors">
+                    TikTok →
+                  </a>
+                  <a href="https://www.instagram.com/locksmithgirl" target="_blank" rel="noopener noreferrer"
+                     className="font-medium text-white/80 hover:text-gold transition-colors">
+                    Instagram →
+                  </a>
+                </div>
               </li>
             </ul>
           </div>

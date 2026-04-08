@@ -2,10 +2,9 @@
 
 import { useState, type FormEvent } from "react";
 
-// TODO: Replace with real phone number
-const PHONE = "(212) 555-0000";
-const PHONE_HREF = "tel:+12125550000";
-const SMS_HREF = "sms:+12125550000&body=Hi, I need a locksmith";
+const PHONE = "(646) 860-0520";
+const PHONE_HREF = "tel:+16468600520";
+const SMS_HREF = "sms:+16468600520&body=Hi, I need a locksmith";
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -149,7 +148,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="text-sm font-bold uppercase tracking-wide text-gold">Service Area</h3>
-                <p className="mt-1 text-nearblack/80">All 5 NYC boroughs — within 35 minutes of the Upper East Side</p>
+                <p className="mt-1 text-nearblack/80">Manhattan, Brooklyn, Queens &amp; The Bronx — within 35 minutes of the Upper East Side</p>
               </div>
               <div>
                 <h3 className="text-sm font-bold uppercase tracking-wide text-gold">Response Time</h3>
