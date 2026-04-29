@@ -39,7 +39,6 @@ Open [http://localhost:3000](http://localhost:3000) to view the site locally.
 | Brooklyn | `/areas/brooklyn` | Brooklyn landing page |
 | Queens | `/areas/queens` | Queens landing page |
 | The Bronx | `/areas/bronx` | Bronx landing page |
-| Staten Island | `/areas/staten-island` | Staten Island landing page |
 | Contact | `/contact` | Phone, text, and contact form |
 | FAQ | `/faq` | 6 frequently asked questions |
 
@@ -54,7 +53,6 @@ The site is configured for static export (`output: 'export'` in `next.config.ts`
 
 ## TODOs Before Launch
 
-- [ ] **Phone number** — Replace `(212) 555-0000` placeholder with real phone number (search for `555-0000` across all files)
 - [ ] **Google Analytics** — Add GA4 tracking ID in `app/layout.tsx`
 - [ ] **Contact form backend** — Connect form to email service (e.g., Formspree, Resend, or custom API)
 - [ ] **Chat widget** — Replace placeholder with ScaleSmart chat widget script in `app/layout.tsx`
