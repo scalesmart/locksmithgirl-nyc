@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 
-const PHONE_HREF = "tel:+16468600520";
+const PHONE_HREF = "tel:+18559147068";
 
 export default function StickyCallBar() {
   const [visible, setVisible] = useState(false);

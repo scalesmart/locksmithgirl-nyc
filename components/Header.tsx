@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 
-const PHONE_HREF = "tel:+16468600520";
+const PHONE_HREF = "tel:+18559147068";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);

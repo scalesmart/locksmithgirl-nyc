@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-const PHONE = "(646) 860-0520";
-const PHONE_HREF = "tel:+16468600520";
-const SMS_HREF = "sms:+16468600520&body=Hi, I need a locksmith";
+const PHONE = "(855) 914-7068";
+const PHONE_HREF = "tel:+18559147068";
+const SMS_HREF = "sms:+18559147068&body=Hi, I need a locksmith";
 
 type BoroughData = {
   name: string;

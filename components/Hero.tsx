@@ -1,6 +1,6 @@
-const PHONE = "(646) 860-0520";
-const PHONE_HREF = "tel:+16468600520";
-const SMS_HREF = "sms:+16468600520&body=Hi, I need a locksmith";
+const PHONE = "(855) 914-7068";
+const PHONE_HREF = "tel:+18559147068";
+const SMS_HREF = "sms:+18559147068&body=Hi, I need a locksmith";
 
 const quickServices = ["Emergency Lockouts", "Rekeying", "Lock Changes", "Smart Locks"];
 
@@ -56,7 +56,7 @@ export default function Hero() {
               Locked out late? Don&apos;t wait outside alone.
             </h2>
             <p className="mt-4 leading-relaxed text-nearblack/72">
-              Call or text with your location and door issue. She&apos;ll confirm service area, give the next safe step, and head your way when available.
+              Call or text with your location and door issue. Overnight calls from 12am to 6am ET are handled through the after-hours line first so the locksmith team can dispatch cleanly.
             </p>
             <div className="mt-6 space-y-3 border-y border-navy/10 py-5">
               <div className="flex items-start gap-3">
@@ -70,6 +70,10 @@ export default function Hero() {
               <div className="flex items-start gap-3">
                 <span className="mt-1 h-2 w-2 rounded-full bg-gold" />
                 <p><strong>Residential and commercial</strong> locks, rekeys, repairs, and smart locks.</p>
+              </div>
+              <div className="flex items-start gap-3">
+                <span className="mt-1 h-2 w-2 rounded-full bg-gold" />
+                <p><strong>Late-night lockouts</strong> include a $125 service call fee on top of the unlock.</p>
               </div>
             </div>
             <a href={PHONE_HREF} className="mt-6 inline-flex w-full justify-center rounded-sm bg-navy px-6 py-4 font-extrabold text-white transition hover:bg-navy-light">

@@ -23,7 +23,7 @@ export default function Home() {
             description:
               "Female-owned, female-operated locksmith serving NYC 24/7. Emergency lockouts, rekeying, smart lock installation, and more.",
             url: "https://locksmithgirl.com",
-            telephone: "+16468600520",
+            telephone: "+18559147068",
             openingHours: "Mo-Su 00:00-23:59",
             areaServed: [
               "Manhattan",

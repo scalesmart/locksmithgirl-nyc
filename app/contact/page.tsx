@@ -2,9 +2,9 @@
 
 import { useState, type FormEvent } from "react";
 
-const PHONE = "(646) 860-0520";
-const PHONE_HREF = "tel:+16468600520";
-const SMS_HREF = "sms:+16468600520&body=Hi, I need a locksmith";
+const PHONE = "(855) 914-7068";
+const PHONE_HREF = "tel:+18559147068";
+const SMS_HREF = "sms:+18559147068&body=Hi, I need a locksmith";
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -25,7 +25,7 @@ export default function ContactPage() {
             Contact
           </h1>
           <p className="mt-4 text-lg text-white/70">
-            Locked out? Need a quote? Reach her directly — she&apos;ll respond fast.
+            Locked out? Need a quote? Call or text the 24/7 line and the locksmith team will route you fast.
           </p>
         </div>
       </section>
@@ -49,6 +49,9 @@ export default function ContactPage() {
           >
             Text Us Instead
           </a>
+          <p className="mt-4 text-sm text-nearblack/60">
+            Overnight calls between 12am and 6am ET are triaged first. Late-night lockouts include a $125 service call fee on top of the unlock.
+          </p>
         </div>
 
         {/* Contact form */}
@@ -152,7 +155,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h3 className="text-sm font-bold uppercase tracking-wide text-gold">Response Time</h3>
-                <p className="mt-1 text-nearblack/80">She&apos;ll call you back within minutes.</p>
+                <p className="mt-1 text-nearblack/80">Calls from 6am to midnight ET ring Sahar directly. Overnight calls are routed through the after-hours intake line.</p>
               </div>
 
               {/* Map placeholder */}

@@ -6,8 +6,8 @@ export const metadata: Metadata = {
     "Emergency lockouts, lock rekeying, lock changes, smart lock installation, commercial security, and master key systems. Female locksmith serving all 5 NYC boroughs 24/7.",
 };
 
-const PHONE = "(646) 860-0520";
-const PHONE_HREF = "tel:+16468600520";
+const PHONE = "(855) 914-7068";
+const PHONE_HREF = "tel:+18559147068";
 
 const services = [
   {

@@ -7,8 +7,8 @@ export const metadata: Metadata = {
     "Locksmith Girl of NYC serves Manhattan, Brooklyn, Queens, and the Bronx. Female locksmith within 35 minutes of your location, 24/7.",
 };
 
-const SMS_HREF = "sms:+16468600520&body=Hi, I need a locksmith in my area";
-const PHONE_HREF = "tel:+16468600520";
+const SMS_HREF = "sms:+18559147068&body=Hi, I need a locksmith in my area";
+const PHONE_HREF = "tel:+18559147068";
 
 const boroughs = [
   {

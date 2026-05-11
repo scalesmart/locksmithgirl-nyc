@@ -6,7 +6,7 @@ export const metadata = {
     "Frequently asked questions about Locksmith Girl of NYC. Is she actually a woman? How fast can she get there? How much does a lockout cost? Get answers here.",
 };
 
-const PHONE_HREF = "tel:+16468600520";
+const PHONE_HREF = "tel:+18559147068";
 
 export default function FAQPage() {
   return (

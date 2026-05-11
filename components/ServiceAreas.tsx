@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const SMS_HREF = "sms:+16468600520&body=Hi, I need a locksmith in my area";
+const SMS_HREF = "sms:+18559147068&body=Hi, I need a locksmith in my area";
 
 const boroughs = [
   {
