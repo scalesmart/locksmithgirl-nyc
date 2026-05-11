@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 
-const PHONE = "(646) 860-0520";
 const PHONE_HREF = "tel:+16468600520";
 
 export default function Header() {
